@@ -1,7 +1,307 @@
-/* font-family: "Montserrat", "Arial", sans-serif;
-
-font-family: 'Playfair Display', "Georgia", serif; */
-
 body {
+  background-color: #FFFFFF;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header_navigation_list_item {
   font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.main_screen_photo_tulips {
+  background-color: #81736c;
+}
+
+.main_screen_photo_roses {
+  background-color: #685749;
+}
+
+.main_screen_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  color: #AE7C78;
+}
+
+.main_screen_italic {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  color: #AE7C78;
+}
+
+.main_screen_header_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #AE7C78;
+}
+
+.main_screen_button {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #D89999;
+}
+
+.advantages_list_item_header {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.advantages_list_item_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.popular_photo {
+  background-color: #4f4d37;
+}
+
+.popular_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #AE7C78;
+}
+
+.popular_slider_item_description_header {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #AE7C78;
+}
+
+.popular_slider_item_description_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.popular_slider_price {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #AE7C78;
+}
+
+.popular_slider_item_description_button {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #D89999;
+}
+
+.catalogue_list_item_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.catalogue_list_item_header {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.marriage {
+  background-image: url(img/marriage_bouquet.jpg);
+  background-color: #AE7C78;
+}
+
+.peonies {
+  background-image: url(img/bouquet_with_peonies.jpg);
+  background-color: #AE7C78;
+}
+
+.choose {
+  background-image: url(img/bouquet_with_peonies.jpg);
+  background-color: #AE7C78;
+}
+
+.discount {
+  background-color: #AE7C78;
+}
+
+.discount_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.discount_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.discount_photo {
+  background-color: #311926;
+}
+
+.steps_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #AE7C78;
+}
+
+.steps_list_item_header {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.steps_list_item_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #AE7C78;
+}
+
+.news_photo_pink {
+  background-color: #90877a;
+}
+
+.news_photo_roses {
+  background-color: #b4a79a;
+}
+
+.news_photo_hand {
+  background-color: #bbb0ad;
+}
+
+.news_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #AE7C78;
+}
+
+.news_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #AE7C78;
+}
+
+.feedback_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #AE7C78;
+}
+
+.feedback_quote {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #AE7C78;
+}
+
+.feedback_author {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.map {
+  background-color: #edece1;
+}
+
+.contacts_header {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #AE7C78;
+}
+
+.contacts_list_item_header {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.contacts_list_item_paragraph {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
+
+.footer {
+  background-color: #AE7C78;
+}
+
+.footer_navigation_list_item {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
 }

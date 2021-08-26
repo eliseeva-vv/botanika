@@ -5,8 +5,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <title>Botanika Цветы в Петербурге</title>
   <meta charset="utf-8">
   <meta name="keywords" content="магазин, цветы, петербург, botanika">
@@ -15,7 +15,7 @@
 
 <body>
   <header class="header">
-    <a href="#"><img src="files/logo_header.svg" width="100" height="32" alt="Botanika Цветы в Петербурге"></a>
+    <a class="header_logo" href="#"><img src="files/logo_header.svg" width="100" height="32" alt="Botanika Цветы в Петербурге"></a>
     <nav class="header_navigation">
       <ul class="header_navigation_list">
         <li class="header_navigation_list_item">
@@ -42,11 +42,11 @@
 
   <main>
     <section class="main_screen">
-      <h1 class="main_screen_header">Авторские букеты <span>в Петербурге</span></h1>
+      <h1 class="main_screen_header">Авторские букеты <span class="main_screen_italic">в Петербурге</span></h1>
       <p class="main_screen_header_paragraph">Оригинальные свежие букеты с доставкой по всему городу</p>
       <a class="main_screen_button" href="#">Смотреть каталог</a>
-      <img src="files/pink_tulips.jpg" width="386" height="404" alt="Букет розовых тюльпанов">
-      <img src="files/rose_white_roses.jpg" width="387" height="420" alt="Букет розовых и белых роз">
+      <img class="main_screen_photo_tulips" src="files/pink_tulips.jpg" width="386" height="404" alt="Букет розовых тюльпанов">
+      <img class="main_screen_photo_roses" src="files/rose_white_roses.jpg" width="387" height="420" alt="Букет розовых и белых роз">
       <ul class="advantages_list">
         <li class="advantages_list_item">
           <h2 class="advantages_list_item_header">Быстрая доставка</h2>
@@ -73,11 +73,11 @@
             <p class="popular_slider_item_description_paragraph">Элегантный букет, который станет отличным подарком на день рождения
               или юбилей.</p>
             <p class="popular_slider_item_description_paragraph">30 × 40 см</p>
-            <p><span class="popular_slider_item_description_bold">3600 руб.</span></p>
+            <p><span class="popular_slider_price">3600 руб.</span></p>
             <a class="popular_slider_item_description_button" href="#">Заказать</a>
           </div>
           <div class="popular_slider_item_preview">
-            <img src="files/white_roses.png" width="387" height="438" alt="Букет белых роз">
+            <img class="popular_photo" src="files/white_roses.png" width="387" height="438" alt="Букет белых роз">
           </div>
         </div>
         <div class="popular_slider_controls">
@@ -96,19 +96,19 @@
       <ul class="catalogue_list">
         <li class="catalogue_list_item">
           <a href="#">
-            <h3 class="catalogue_list_item_header">Свадебные букеты</h3>
+            <h3 class="catalogue_list_item_header marriage">Свадебные букеты</h3>
             <p class="catalogue_list_item_paragraph">Букеты для невест</p>
           </a>
         </li>
         <li class="catalogue_list_item">
           <a href="#">
-            <h3 class="catalogue_list_item_header">Букеты с пионами</h3>
+            <h3 class="catalogue_list_item_header peonies">Букеты с пионами</h3>
             <p class="catalogue_list_item_paragraph">Букеты с сезонными пионами</p>
           </a>
         </li>
         <li class="catalogue_list_item">
           <a href="#">
-            <h3 class="catalogue_list_item_header">Выбрать букет</h3>
+            <h3 class="catalogue_list_item_header choose">Выбрать букет</h3>
             <p class="catalogue_list_item_paragraph">Букеты в ассортименте</p>
           </a>
         </li>
@@ -119,7 +119,7 @@
       <h2 class="discount_header">Скидка 10% на первый заказ</h2>
       <p class="discount_paragraph">Если заказываете у нас букет впервые — при оформлении заказа введите
         промокод «Botanika2021» и получите скидку 10%.</p>
-      <img src="files/peonies_tulips_roses.jpg" width="590" height="391" alt="Букет из розовых, зеленых, белых, оранжевых пионов, тюльпанов и роз">
+      <img class="discount_photo" src="files/peonies_tulips_roses.jpg" width="590" height="391" alt="Букет из розовых, зеленых, белых, оранжевых пионов, тюльпанов и роз">
     </section>
 
     <section class="steps">
@@ -153,9 +153,9 @@
         <li class="news_list_item"><a class="visually-hidden" href="#">Фейсбук</a></li>
         <li class="news_list_item"><a class="visually-hidden" href="#">Твиттер</a></li>
       </ul>
-      <img src="files/pink_white_flowers" width="285" height="220" alt="Букет из белых и розовых цветов">
-      <img src="files/pink_roses" width="285" height="220" alt="Букет розовых роз">
-      <img src="files/pink_flowers" width="387" height="460" alt="Женская рука держит букет из розовых цветов">
+      <img class="news_photo_pink" src="files/pink_white_flowers.jpg" width="285" height="220" alt="Букет из белых и розовых цветов">
+      <img class="news_photo_roses" src="files/pink_roses.jpg" width="285" height="220" alt="Букет розовых роз">
+      <img class="news_photo_hand" src="files/pink_flowers.jpg" width="387" height="460" alt="Женская рука держит букет из розовых цветов">
     </section>
 
     <section class="feedback">
@@ -170,10 +170,10 @@
         </li>
         <li class="feedback_list_item">
           <blockquote class="feedback_quote">
-            <p class="feedback_author">Внимательные флористы, вежливые. Магазин находится прям рядом с
+            <p>Внимательные флористы, вежливые. Магазин находится прям рядом с
               метро. Букет очень понравился, буду ещё заказывать!</p>
           </blockquote>
-          <p>Татьяна</p>
+          <p class="feedback_author">Татьяна</p>
         </li>
         <li class="feedback_list_item">
           <blockquote class="feedback_quote">
@@ -187,7 +187,7 @@
 
     <section class="contacts">
       <h2 class="visually-hidden">Карта и контакты</h2>
-      <img src="files/map.png" width="1440" height="644" alt="Карта магазина по адресу: Санкт-Петербург, ул. Большая Конюшенная, 19">
+      <img class="map" src="files/map.png" width="1440" height="644" alt="Карта магазина по адресу: Санкт-Петербург, ул. Большая Конюшенная, 19">
       <div class="contacts_container">
         <p class="contacts_header">Мы ждем вас</p>
         <ul class="contacts_list">
